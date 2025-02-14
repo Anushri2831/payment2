@@ -21,8 +21,12 @@ const PaymentForm = () => {
             <span style={{border:"5px solid black",color:"white", padding:"5px", borderRadius:"6px", marginLeft:"4px", backgroundColor:"black"}}>9</span>
           </div>
         </div>
+<div className="header">
+        <h2>CardNumber </h2>
+        <h5 style={{color:"blue"}}>Edit</h5>
+          <div><FaPen/></div>
 
-        <h2>CardNumber<h2 style={{color:"blue",fontSize:"12px",justifyContent:"right",}}>Edit <div ><FaPen/></div></h2></h2>
+        </div>
         <div className="input-group">
           <input type="text" value="2412 - 7512 - 3412 - 3456" disabled />
           <img src="mastercard-logo.png" alt="Card Logo" />

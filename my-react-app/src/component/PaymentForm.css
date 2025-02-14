@@ -63,3 +63,8 @@
   .order-details h3 {
     font-weight: bold;
   }
+
+  .header{
+    display:flex;
+    flex-direction: row;
+  }
