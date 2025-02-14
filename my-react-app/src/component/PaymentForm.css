@@ -17,12 +17,6 @@
     align-items: center;
   }
   
-  .timer {
-    background: black;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-  }
   
   .input-group {
     display: flex;

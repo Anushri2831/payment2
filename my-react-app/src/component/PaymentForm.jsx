@@ -9,7 +9,11 @@ const PaymentForm = () => {
         <div className="header">
           <h2>AceCoinPay</h2>
           <div className="timer">
-            <span>01</span>:<span>19</span>
+            <span style={{border:"5px solid black",color:"white", padding:"5px", borderRadius:"6px", marginLeft:"12px", backgroundColor:"black"}}>0</span>
+            <span style={{border:"5px solid black",color:"white", padding:"5px", borderRadius:"6px", marginLeft:"4px", backgroundColor:"black"}}>1</span>
+            <span style={{padding:"3px", margin:"5px"}}>:</span>
+            <span style={{border:"5px solid black",color:"white", padding:"5px", borderRadius:"6px", marginLeft:"12px", backgroundColor:"black"}}>1</span>
+            <span style={{border:"5px solid black",color:"white", padding:"5px", borderRadius:"6px", marginLeft:"4px", backgroundColor:"black"}}>9</span>
           </div>
         </div>
 
