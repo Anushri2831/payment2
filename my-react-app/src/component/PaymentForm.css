@@ -1,0 +1,71 @@
+.payment-container {
+    display: flex;
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payment-form {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .timer {
+    background: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .expiry-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .expiry-group input {
+    width: 40px;
+  }
+  
+  .pay-btn {
+    width: 100%;
+    background: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .payment-summary {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .card-preview {
+    background: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .order-details p {
+    font-size: 14px;
+  }
+  
+  .order-details h3 {
+    font-weight: bold;
+  }
