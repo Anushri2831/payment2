@@ -1,5 +1,8 @@
 import React from "react";
 import "./PaymentForm.css";
+import {FaPen} from 'react-icons/fa';
+
+
 
 const PaymentForm = () => {
   return (
@@ -7,7 +10,9 @@ const PaymentForm = () => {
       {/* Left Side Form */}
       <div className="payment-form">
         <div className="header">
-          <h2>AceCoinPay</h2>
+          <h2>AceCoin <span style={{color:"Grey"}}>Pay</span></h2>
+         
+
           <div className="timer">
             <span style={{border:"5px solid black",color:"white", padding:"5px", borderRadius:"6px", marginLeft:"12px", backgroundColor:"black"}}>0</span>
             <span style={{border:"5px solid black",color:"white", padding:"5px", borderRadius:"6px", marginLeft:"4px", backgroundColor:"black"}}>1</span>
@@ -17,7 +22,7 @@ const PaymentForm = () => {
           </div>
         </div>
 
-        <label>Card Number</label>
+        <h2>CardNumber<h2 style={{color:"blue",fontSize:"12px",justifyContent:"right",}}>Edit <div ><FaPen/></div></h2></h2>
         <div className="input-group">
           <input type="text" value="2412 - 7512 - 3412 - 3456" disabled />
           <img src="mastercard-logo.png" alt="Card Logo" />
