@@ -23,8 +23,10 @@ const PaymentForm = () => {
         </div>
 <div className="header">
         <h2>CardNumber </h2>
-        <h5 style={{color:"blue"}}>Edit</h5>
+        <div className="head" >
+        <h5 style={{color:"blue", marginRight:"4px"}}>Edit</h5>
           <div><FaPen/></div>
+          </div>
 
         </div>
         <div className="input-group">
